@@ -11,6 +11,7 @@ This example is used in a Google Tag Manager 'Balise'.
 
 
 *** Stars that appear in the SERP ***
+
 "aggregaterating": { "@type":"aggregaterating",
                "ratingValue" : "{{hotel.reviewsNote}}",
                "ratingCount" : "{{hotel.reviewsCount}}"
@@ -19,7 +20,8 @@ If your hotel website is equipped with a customer reviews aggregator (ie, Custom
  
  
  *** Basic Price information next to the Rating & Votes) ***
-"priceRange" : "{{hotel.priceRange}}",
+ 
+ "priceRange" : "{{hotel.priceRange}}",
 
 Same idea here. You can set it up manually :   "priceRange" : "From 50$ / night",
 or you can bring a little dev to push a dynamic data in a Datalayer --> GTM variable
