@@ -4,9 +4,11 @@ Examples of Microformats setups for hotels
 The aim is to allow search engines (obviously Google in particular) to find MicroFormat values (also know as Knowledge Graph) in order to publish them in the SERP (Search Engine Result Page). In the case of hotels, Google displays stars corresponding the overall rating from customer reviews and the number of votes. Next to this you can also have a basic price information.
 This line catch users eyes and increase the CTR (Clic Through Rate).
 
+This example shown in the JSON file is to be used in a Google Tag Manager Tag. 
 
 
-This example is used in a Google Tag Manager 'Balise'. 
+
+
 
 
 
