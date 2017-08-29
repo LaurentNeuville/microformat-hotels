@@ -1,0 +1,24 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Hotel",
+  "name" : "Hotel Name",
+  "description" : "An ideally located 3 stars hotel right in City.",
+  "telephone" :  "+33 654 65 65 65",
+  "priceRange" : "{{hotel.priceRange}}",
+  "address" : { "@type" : "PostalAddress",
+               "addressCountry" : "FR",
+               "addressLocality" : "City",
+               "postalCode" : "XXXXX",
+               "streetAddress" : "Street Adress of the Hotel"
+               },
+  "photo" : "http://www.hoteldomain.com/hotel-logo.jpeg",
+  "image" : "http://www.hoteldomain.com/hotel-image.jpeg",
+  "starRating" : { "@type" : "Rating",
+                   "ratingValue" : "3"},
+  "aggregaterating": { "@type":"aggregaterating",
+               "ratingValue" : "{{hotel.reviewsNote}}",
+               "ratingCount" : "{{hotel.reviewsCount}}"
+               }
+}
+</script>
